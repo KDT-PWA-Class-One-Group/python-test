@@ -1,4 +1,4 @@
-from flask import Flask, request, json, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -12,7 +12,10 @@ def home():
 @app.route("/test", methods=['POST'])
 def test():
     params = request.get_json()
-    print("받은 Json 데이터 ", params)
+    
+    print(request.headers["Authorization"])
+
+    # print("받은 Json 데이터 ", params)
     response = {
         "result": "받기 성공"
     }
