@@ -4,7 +4,7 @@ from flask import Flask, render_template, send_file
 import matplotlib.pyplot as plt
 import io
 
-app = Flask(__name__)
+app = Flask(__name__) # 파스칼 케이스 생성자
 
 # 데이터 시각화 함수
 def create_scatter_plot():
@@ -15,9 +15,9 @@ def create_scatter_plot():
     # 산점도 생성
     plt.figure(figsize=(6, 4))
     plt.scatter(x, y, color='blue')
-    plt.title('Sample Scatter Plot')
-    plt.xlabel('X-axis')
-    plt.ylabel('Y-axis')
+    plt.title('Sample Scatter Plot') # 타이틀
+    plt.xlabel('X-axis') # x축
+    plt.ylabel('Y-axis') # y축
 
     # 이미지를 메모리로 저장
     img = io.BytesIO()
@@ -29,6 +29,10 @@ def create_scatter_plot():
 @app.route('/')
 def home():
     return render_template('index.html')
+
+@app.route('/api/hello')
+def hello():
+    return 'hello'
 
 @app.route('/plot.png')
 def plot_png():
