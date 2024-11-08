@@ -1,0 +1,536 @@
+{
+  "users": [
+    {
+      "name": "공욱재",
+      "uuid": "KR-2024-0001-A567",
+      "age": 28,
+      "preferences": {
+        "like": [
+          "SF",
+          "액션",
+          "판타지",
+          "스릴러",
+          "범죄",
+          "디스토피아",
+          "타임루프",
+          "스페이스오페라",
+          "슈퍼히어로",
+          "사이버펑크"
+        ],
+        "hate": [
+          "로맨스",
+          "코미디",
+          "뮤지컬",
+          "하이틴",
+          "멜로",
+          "공포",
+          "슬랩스틱",
+          "시트콤",
+          "음악",
+          "팬터지"
+        ]
+      },
+      "account": {
+        "password": "gw#24@Kr!",
+        "email": "woojae@kdt-pwa.com",
+        "mileage": 12500,
+        "membershipLevel": "VIP"
+      },
+      "currentTicket": {
+        "movieName": "듄: 파트2",
+        "reservationDate": "2024-03-15",
+        "validUntil": "2024-03-15",
+        "showTime": "19:30",
+        "discount": 0.15,
+        "price": 14000,
+        "seat": "H12",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 48,
+        "lastMovie": "웡카",
+        "ratings": [
+          { "movie": "웡카", "score": 4.5 },
+          { "movie": "듄: 파트1", "score": 5.0 },
+          { "movie": "인터스텔라", "score": 5.0 }
+        ]
+      },
+      "device": {
+        "model": "Galaxy S23 Ultra",
+        "os": "Android 14",
+        "uuid": "SAMSUNG-SM-S918-XXX",
+        "screenSize": "6.8inch"
+      }
+    },
+    {
+      "name": "곽윤호",
+      "uuid": "KR-2024-0002-B891",
+      "age": 25,
+      "preferences": {
+        "like": [
+          "로맨스",
+          "코미디",
+          "힐링",
+          "성장",
+          "청춘",
+          "음악",
+          "애니메이션",
+          "드라마",
+          "가족",
+          "판타지"
+        ],
+        "hate": [
+          "공포",
+          "스릴러",
+          "잔혹",
+          "전쟁",
+          "재난",
+          "범죄",
+          "액션",
+          "SF",
+          "스포츠",
+          "다큐멘터리"
+        ]
+      },
+      "account": {
+        "password": "ky25#nice@",
+        "email": "yunho@kdt-pwa.com",
+        "mileage": 8800,
+        "membershipLevel": "GOLD"
+      },
+      "currentTicket": {
+        "movieName": "건축학개론2",
+        "reservationDate": "2024-03-18",
+        "validUntil": "2024-03-18",
+        "showTime": "16:20",
+        "discount": 0.1,
+        "price": 13000,
+        "seat": "F7",
+        "photoTicketIssued": false
+      },
+      "viewingHistory": {
+        "totalMovies": 32,
+        "lastMovie": "너의 이름은",
+        "ratings": [
+          { "movie": "너의 이름은", "score": 5.0 },
+          { "movie": "라라랜드", "score": 4.5 },
+          { "movie": "건축학개론", "score": 4.0 }
+        ]
+      },
+      "device": {
+        "model": "iPhone 15 Pro",
+        "os": "iOS 17.3.1",
+        "uuid": "iPhone15,2-XXX",
+        "screenSize": "6.1inch"
+      }
+    },
+    {
+      "name": "김민지",
+      "uuid": "KR-2024-0003-C234",
+      "age": 23,
+      "preferences": {
+        "like": [
+          "공포",
+          "스릴러",
+          "미스터리",
+          "심리",
+          "범죄",
+          "서스펜스",
+          "호러",
+          "오컬트",
+          "스플래터",
+          "블랙코미디"
+        ],
+        "hate": [
+          "전쟁",
+          "역사",
+          "다큐멘터리",
+          "스포츠",
+          "무협",
+          "서부",
+          "정치",
+          "종교",
+          "실화",
+          "전기"
+        ]
+      },
+      "account": {
+        "password": "km23@horror!",
+        "email": "minji@kdt-pwa.com",
+        "mileage": 15600,
+        "membershipLevel": "PLATINUM"
+      },
+      "currentTicket": {
+        "movieName": "퀸비",
+        "reservationDate": "2024-03-20",
+        "validUntil": "2024-03-20",
+        "showTime": "23:00",
+        "discount": 0.2,
+        "price": 12000,
+        "seat": "J9",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 67,
+        "lastMovie": "짐승들의 시간",
+        "ratings": [
+          { "movie": "짐승들의 시간", "score": 4.5 },
+          { "movie": "곤지암", "score": 5.0 },
+          { "movie": "링", "score": 4.0 }
+        ]
+      },
+      "device": {
+        "model": "iPhone 14",
+        "os": "iOS 17.3",
+        "uuid": "iPhone14,1-XXX",
+        "screenSize": "6.1inch"
+      }
+    },
+    {
+      "name": "문혜림",
+      "uuid": "KR-2024-0004-D678",
+      "age": 27,
+      "preferences": {
+        "like": [
+          "다큐멘터리",
+          "예술",
+          "독립영화",
+          "실험영화",
+          "단편",
+          "독립",
+          "예술영화",
+          "다큐",
+          "전시",
+          "페스티벌"
+        ],
+        "hate": [
+          "상업영화",
+          "블록버스터",
+          "액션",
+          "슈퍼히어로",
+          "SF",
+          "판타지",
+          "어드벤처",
+          "재난",
+          "스포츠",
+          "무협"
+        ]
+      },
+      "account": {
+        "password": "mhl27#art@",
+        "email": "hyelim@kdt-pwa.com",
+        "mileage": 9900,
+        "membershipLevel": "GOLD"
+      },
+      "currentTicket": {
+        "movieName": "옵펜하이머",
+        "reservationDate": "2024-03-17",
+        "validUntil": "2024-03-17",
+        "showTime": "13:40",
+        "discount": 0.1,
+        "price": 13000,
+        "seat": "D5",
+        "photoTicketIssued": false
+      },
+      "viewingHistory": {
+        "totalMovies": 41,
+        "lastMovie": "사운드 오브 메탈",
+        "ratings": [
+          { "movie": "사운드 오브 메탈", "score": 5.0 },
+          { "movie": "버드맨", "score": 4.5 },
+          { "movie": "문라이트", "score": 4.5 }
+        ]
+      },
+      "device": {
+        "model": "Pixel 7",
+        "os": "Android 14",
+        "uuid": "GOOGLE-GP7-XXX",
+        "screenSize": "6.3inch"
+      }
+    },
+    {
+      "name": "배성빈",
+      "uuid": "KR-2024-0005-E901",
+      "age": 29,
+      "preferences": {
+        "like": [
+          "액션",
+          "범죄",
+          "느와르",
+          "스릴러",
+          "첩보",
+          "수사물",
+          "갱스터",
+          "폭력물",
+          "하드보일드",
+          "블랙코미디"
+        ],
+        "hate": [
+          "로맨스",
+          "멜로",
+          "가족",
+          "어린이",
+          "애니메이션",
+          "판타지",
+          "뮤지컬",
+          "코미디",
+          "힐링",
+          "청춘"
+        ]
+      },
+      "account": {
+        "password": "bsb29#noir!",
+        "email": "seongbin@kdt-pwa.com",
+        "mileage": 18700,
+        "membershipLevel": "VIP"
+      },
+      "currentTicket": {
+        "movieName": "범죄도시4",
+        "reservationDate": "2024-03-19",
+        "validUntil": "2024-03-19",
+        "showTime": "20:15",
+        "discount": 0.15,
+        "price": 14000,
+        "seat": "G11",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 73,
+        "lastMovie": "범죄도시3",
+        "ratings": [
+          { "movie": "범죄도시3", "score": 4.0 },
+          { "movie": "신세계", "score": 5.0 },
+          { "movie": "올드보이", "score": 5.0 }
+        ]
+      },
+      "device": {
+        "model": "Galaxy Z Flip5",
+        "os": "Android 14",
+        "uuid": "SAMSUNG-SF5-XXX",
+        "screenSize": "6.7inch"
+      }
+    },
+    {
+      "name": "서민석",
+      "uuid": "KR-2024-0006-F345",
+      "age": 31,
+      "preferences": {
+        "like": [
+          "SF",
+          "판타지",
+          "어드벤처",
+          "액션",
+          "슈퍼히어로",
+          "우주",
+          "미래",
+          "블록버스터",
+          "특수효과",
+          "서사"
+        ],
+        "hate": [
+          "공포",
+          "스릴러",
+          "심리",
+          "드라마",
+          "로맨스",
+          "코미디",
+          "예술영화",
+          "다큐멘터리",
+          "독립영화",
+          "실험영화"
+        ]
+      },
+      "account": {
+        "password": "sms31#sf@",
+        "email": "minseok@kdt-pwa.com",
+        "mileage": 21300,
+        "membershipLevel": "PLATINUM"
+      },
+      "currentTicket": {
+        "movieName": "스타워즈: 새로운 시대",
+        "reservationDate": "2024-03-16",
+        "validUntil": "2024-03-16",
+        "showTime": "15:50",
+        "discount": 0.2,
+        "price": 15000,
+        "seat": "I8",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 89,
+        "lastMovie": "아바타: 물의 길",
+        "ratings": [
+          { "movie": "아바타: 물의 길", "score": 5.0 },
+          { "movie": "인셉션", "score": 5.0 },
+          { "movie": "매트릭스", "score": 4.5 }
+        ]
+      },
+      "device": {
+        "model": "Galaxy S24+",
+        "os": "Android 14",
+        "uuid": "SAMSUNG-S24P-XXX",
+        "screenSize": "6.7inch"
+      }
+    },
+    {
+      "name": "유호영",
+      "uuid": "KR-2024-0007-G789",
+      "age": 24,
+      "preferences": {
+        "like": [
+          "애니메이션",
+          "판타지",
+          "모험",
+          "가족",
+          "코미디",
+          "힐링",
+          "동화",
+          "스튜디오지브리",
+          "디즈니",
+          "픽사"
+        ],
+        "hate": [
+          "공포",
+          "스릴러",
+          "전쟁",
+          "폭력",
+          "정치",
+          "다큐멘터리",
+          "실험영화",
+          "성인",
+          "범죄",
+          "느와르"
+        ]
+      },
+      "account": {
+        "password": "yhy24#ani!",
+        "email": "hoyoung@kdt-pwa.com",
+        "mileage": 7400,
+        "membershipLevel": "SILVER"
+      },
+      "currentTicket": {
+        "movieName": "겨울왕국3",
+        "reservationDate": "2024-03-21",
+        "validUntil": "2024-03-21",
+        "showTime": "14:30",
+        "discount": 0.1,
+        "price": 12000,
+        "seat": "E6",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 28,
+        "lastMovie": "스즈메의 문단속",
+        "ratings": [
+          { "movie": "스즈메의 문단속", "score": 4.5 },
+          { "movie": "센과 치히로의 행방불명", "score": 5.0 },
+          { "movie": "토이 스토리 4", "score": 4.0 }
+        ]
+      },
+      "device": {
+        "model": "iPhone 13 mini",
+        "os": "iOS 17.3",
+        "uuid": "iPhone13mini-XXX",
+        "screenSize": "5.4inch"
+      }
+    },
+    {
+      "name": "임유진",
+      "viewingHistory": {
+        "totalMovies": 45,
+        "lastMovie": "비포 선라이즈",
+        "ratings": [
+          { "movie": "비포 선라이즈", "score": 5.0 },
+          { "movie": "노트북", "score": 4.5 },
+          { "movie": "이터널 선샤인", "score": 4.5 }
+        ]
+      },
+      "device": {
+        "model": "iPhone 14 Pro",
+        "os": "iOS 17.3.1",
+        "uuid": "iPhone14Pro-XXX",
+        "screenSize": "6.1inch"
+      }
+    },
+    {
+      "name": "황재민",
+      "uuid": "KR-2024-0009-I456",
+      "age": 30,
+      "preferences": {
+        "like": [
+          "스포츠",
+          "액션",
+          "전쟁",
+          "역사",
+          "실화",
+          "드라마",
+          "인물",
+          "영웅",
+          "모험",
+          "감동"
+        ],
+        "hate": [
+          "공포",
+          "스릴러",
+          "로맨스",
+          "코미디",
+          "실험영화",
+          "예술영화",
+          "독립영화",
+          "애니메이션",
+          "뮤지컬",
+          "SF"
+        ]
+      },
+      "account": {
+        "password": "hjm30#sport!",
+        "email": "jaemin@kdt-pwa.com",
+        "mileage": 16800,
+        "membershipLevel": "VIP"
+      },
+      "currentTicket": {
+        "movieName": "슬램덩크 2",
+        "reservationDate": "2024-03-23",
+        "validUntil": "2024-03-23",
+        "showTime": "18:30",
+        "discount": 0.2,
+        "price": 14000,
+        "seat": "B8",
+        "photoTicketIssued": true
+      },
+      "viewingHistory": {
+        "totalMovies": 62,
+        "lastMovie": "더 퍼스트 슬램덩크",
+        "ratings": [
+          { "movie": "더 퍼스트 슬램덩크", "score": 5.0 },
+          { "movie": "1917", "score": 4.5 },
+          { "movie": "머니볼", "score": 4.5 }
+        ]
+      },
+      "device": {
+        "model": "Galaxy S23",
+        "os": "Android 14",
+        "uuid": "SAMSUNG-S23-XXX",
+        "screenSize": "6.1inch"
+      }
+    }
+  ],
+  "metadata": {
+    "totalUsers": 9,
+    "lastUpdated": "2024-03-15T09:00:00Z",
+    "version": "1.0.0",
+    "dataType": "movieUserProfiles",
+    "source": "KDT-PWA-Database"
+  },
+  "statistics": {
+    "averageAge": 27,
+    "popularGenres": ["액션", "SF", "드라마", "로맨스", "스릴러"],
+    "averageTicketPrice": 13333,
+    "membershipDistribution": {
+      "VIP": 3,
+      "PLATINUM": 2,
+      "GOLD": 3,
+      "SILVER": 1
+    }
+  }
+}
