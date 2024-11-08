@@ -1,14 +1,3 @@
-def union_list (listA, listB):
-    setA = set(listA)
-    setB = set(listB)
-    return setA.union(setB)
-
-def count_dictionary (dictA, item):
-    if item in dictA:
-        dictA[item] += 1
-    else :
-        dictA[item] = 1
-
 def extract_top_5_list (listA) :
     """
     x:x[0] = key를 기준으로 정렬 

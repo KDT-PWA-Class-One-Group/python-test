@@ -4,11 +4,15 @@ import json
 from urllib import parse
 import numpy as np
 
-from hook.list_setting import union_list, count_dictionary, extract_top_5_list
+from utils.list_helpers import union_list, count_dictionary
+from services.preference_service import extract_top_5_list
+from routers.router_test import test_bp
+
 
 app = Flask(__name__)
 CORS(app)
 
+app.register_blueprint(test_bp)
 
 @app.route('/')
 def home():
